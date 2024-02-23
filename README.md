@@ -1,39 +1,69 @@
-# MediLink
+# Medilink - Pioneering Telehealth Excellence for Enchanced Patient Care
 
-Components:
 
-    Medical Diagnosis and Report Generation Script :
-        The first and second code snippets are Python scripts for predicting skin diseases based on input images, generating diagnosis reports, and sending them via email.
-        These scripts utilize a pretrained Keras model for skin disease classification.
-        Dependencies include TensorFlow, Keras, NumPy, Matplotlib, PIL, and Python libraries for email handling.
+## Overview
+Medilink is a comprehensive medical assistance and diagnosis system designed to provide various healthcare-related functionalities. Leveraging advanced technologies such as deep learning, OCR (Optical Character Recognition), real-time data analysis, and telemedicine integration, Medilink offers a wide range of services to users, including skin disease prediction, medical report analysis, heart rate simulation, prompt-based diagnosis, and telemedicine consultation.
 
-    Medical Report Analysis and Query Generation App :
-        The third code snippet implements a Streamlit web application for analyzing medical reports, extracting text from images, and generating queries using the Ollama language model.
-        It uses PyTesseract for text extraction and the Ollama model for query generation.
-        Dependencies include Streamlit, Pillow, pytesseract, and Ollama language model.
+## Features
+### 1. Skin Disease Prediction System
+- Predicts various skin diseases based on input images with high accuracy.
+- Generates detailed diagnosis reports including predicted disease, confidence level, and description.
+- Sends diagnosis reports to patients via email for further consultation.
 
-    Ollama Medical Model :
-        The fourth code snippet is a Streamlit app for interacting with the Ollama language model specifically trained for medical purposes.
-        Users can input prompts, and the model generates responses.
-        Dependencies include Streamlit and the Ollama language model.
+### 2. OCR-based Medical Report Analyzer
+- Allows users to upload medical report images.
+- Extracts text from the uploaded images using OCR.
+- Analyzes the medical report text to provide relevant information and insights.
 
-Usage:
+### 3. Heart Rate Virtual Simulation and Real-time Data Analysis
+- Simulates heart rate data in real-time.
+- Provides insights into heart rate variations during resting and exercise conditions.
+- Integrates with Firebase to store and manage heart rate data.
 
-    Medical Diagnosis and Report Generation Script:
-        Run the script and follow the prompts to input the path to the image, patient information, and email credentials.
-        The script predicts skin diseases, generates diagnosis reports, and sends them via email.
+### 4. Prompt-based Diagnosis
+- Allows users to input prompts related to medical queries.
+- Utilizes language models to generate responses and insights based on user prompts.
+- Displays the history of prompts and corresponding results for reference.
 
-    Medical Report Analysis and Query Generation App:
-        Upload a medical report image to the web app.
-        The app extracts text from the image and generates queries using the Ollama model.
+### 5. Telemedicine Integration
+- Sends generated diagnosis reports via email to patients for remote consultation.
+- Utilizes Gmail SMTP server for email communication.
+- Ensures secure and efficient transmission of medical reports to patients.
 
-    Ollama Medical Model:
-        Interact with the Streamlit app by providing prompts.
-        The app uses the Ollama model to generate responses based on the prompts.
+## Installation and Usage
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/sukrithpvs/MediLink.git
+    ```
+2. Install the required dependencies listed in each feature's code.
+3. Run the respective Python scripts for each feature.
+4. Follow the prompts or input necessary information to utilize the features.
 
-Requirements:
+## Requirements
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- PIL (Python Imaging Library)
+- python-docx
+- langchain_community library
+- Streamlit (for OCR and prompt-based diagnosis)
+- Firebase Admin SDK (for heart rate simulation and data management)
 
-    Ensure you have the necessary dependencies installed for each component.
-    For the medical diagnosis and report generation script, you need access to a pretrained Keras model and Gmail credentials for email sending functionality.
-    The medical report analysis and query generation app require PyTesseract for text extraction and access to the Ollama language model.
-    The Ollama medical model app requires the Ollama language model and Streamlit for app development.
+## Configuration
+- Replace placeholder values (e.g., app passwords, API keys) with your actual credentials and keys.
+- Ensure proper network configurations for real-time data analysis and telemedicine integration.
+
+## Contributing
+Contributions are welcome! Feel free to enhance existing features, add new functionalities, or fix any bugs. Please follow the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines when contributing to this project.
+
+## License
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+## Acknowledgments
+- This project was developed as part of [provide details if any].
+- Special thanks to the creators of TensorFlow, Keras, Streamlit, Firebase, and other open-source libraries used in this project.
+
+## Support
+For any inquiries or issues, please contact rupinajay@gmail.com, sricharan320@gmail.com, sanjayperam2604@gmail.com, sukrithpvs2005@gmail.com
