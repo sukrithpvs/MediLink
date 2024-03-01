@@ -5,7 +5,7 @@
 Medilink is a comprehensive medical assistance and diagnosis system designed to provide various healthcare-related functionalities. Leveraging advanced technologies such as deep learning, OCR (Optical Character Recognition), real-time data analysis, and telemedicine integration, Medilink offers a wide range of services to users, including skin disease prediction, medical report analysis, heart rate simulation, prompt-based diagnosis, and telemedicine consultation.
 
 ## Features
-### 1. Skin Disease Prediction System
+### 1. Skin Disease Prediction System.  
 - Predicts various skin diseases based on input images with high accuracy.
 - Generates detailed diagnosis reports including predicted disease, confidence level, and description.
 - Sends diagnosis reports to patients via email for further consultation.
